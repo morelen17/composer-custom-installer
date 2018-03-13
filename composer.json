@@ -1,0 +1,18 @@
+{
+  "name": "morelen17/courses-installer-plugin",
+  "type": "composer-plugin",
+  "autoload": {
+    "psr-0": {
+      "CoursesInstaller": "src/"
+    }
+  },
+  "extra": {
+    "class": "CoursesInstaller\\CoursesPlugin"
+  },
+  "require": {
+    "composer-plugin-api": "^1.0"
+  },
+  "require-dev": {
+    "composer/composer": "^1.3"
+  }
+}
